@@ -32,6 +32,18 @@ find /var/www/ -type f -exec chmod 644 {} \;
 ```
 
 ```bash
+cd wp-content
+```
+
+```bash
+mkdir uploads
+```
+
+```bash
+chmod a+rwx -R uploads
+```
+
+```bash
 exit
 ```
 
